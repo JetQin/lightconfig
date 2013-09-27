@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<constant name="struts.objectFactory" value="spring"></constant>
+
+	<package name="base" extends="struts-default,json-default"
+		namespace="/">
+
+		<action name="config" class="com.callcenter.service.CommonService"
+			method="configData">
+			<result name="success">/index.jsp</result>
+		</action>
+
+		<action name="saveData" class="com.callcenter.service.CommonService"
+			method="saveProvinceData">
+			<result name="success" type="json">/index.jsp</result>
+		</action>
+		
+		<action name="saveCityData" class="com.callcenter.service.CommonService"
+			method="saveCityData">
+			<result name="success" type="json">/index.jsp</result>
+		</action>
+		
+		<action name="setting" class="com.callcenter.service.SettingService" method="setting">
+			<result name="success" type="json">/setting.jsp</result>
+		</action>
+
+		<action name="saveSetting" class="com.callcenter.service.SettingService" method="saveSetting">
+			<result name="success" type="json">/setting.jsp</result>
+		</action>
+
+	</package>
+</struts>

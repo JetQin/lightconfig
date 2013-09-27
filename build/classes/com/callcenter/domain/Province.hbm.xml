@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2013-9-27 16:18:46 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.callcenter.domain.Province" table="PROVINCE">
+        <id name="provinceID" type="int">
+            <column name="PROVINCEID" />
+            <generator class="native" />
+        </id>
+        <property name="provinceName" type="java.lang.String">
+            <column name="PROVINCENAME" />
+        </property>
+        <property name="provinceDescp" type="java.lang.String">
+            <column name="PROVINCEDESCP" />
+        </property>
+        <property name="region" type="java.lang.String">
+            <column name="REGION" />
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="TYPE" />
+        </property>
+        <property name="children" type="java.lang.String">
+            <column name="CHILDREN" />
+        </property>
+        <property name="connectAlarmRate" type="double">
+            <column name="CONNECTALARMRATE" />
+        </property>
+        <property name="connectErrorRate" type="double">
+            <column name="CONNECTERRORRATE" />
+        </property>
+        <property name="connectShortAlarmRate" type="double">
+            <column name="CONNECTSHORTALARMRATE" />
+        </property>
+        <property name="connectShortErrorRate" type="double">
+            <column name="CONNECTSHORTERRORRATE" />
+        </property>
+        <property name="queueNo" type="double">
+            <column name="QUEUENO" />
+        </property>
+        <property name="outboundTime" type="double">
+            <column name="OUTBOUNDTIME" />
+        </property>
+        <property name="inboundTime" type="double">
+            <column name="INBOUNDTIME" />
+        </property>
+        <property name="desktopTime" type="double">
+            <column name="DESKTOPTIME" />
+        </property>
+        <property name="abandonRate" type="double">
+            <column name="ABANDONRATE" />
+        </property>
+        <property name="inboundNo" type="double">
+            <column name="INBOUNDNO" />
+        </property>
+        <property name="requestNo" type="double">
+            <column name="REQUESTNO" />
+        </property>
+        <property name="serviceNo" type="double">
+            <column name="SERVICENO" />
+        </property>
+        <property name="ivrFixNo" type="double">
+            <column name="IVRFIXNO" />
+        </property>
+    </class>
+</hibernate-mapping>

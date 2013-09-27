@@ -1,0 +1,200 @@
+[egoonet]2013-09-24 14:33:45,815 INFO main org.hibernate.cfg.Environment Hibernate 3.3.2.GA
+[egoonet]2013-09-24 14:33:45,818 INFO main org.hibernate.cfg.Environment hibernate.properties not found
+[egoonet]2013-09-24 14:33:45,823 INFO main org.hibernate.cfg.Environment Bytecode provider name : javassist
+[egoonet]2013-09-24 14:33:45,828 INFO main org.hibernate.cfg.Environment using JDK 1.4 java.sql.Timestamp handling
+[egoonet]2013-09-24 14:33:45,922 INFO main org.hibernate.cfg.Configuration configuring from resource: /hibernate.cfg.xml
+[egoonet]2013-09-24 14:33:45,922 INFO main org.hibernate.cfg.Configuration Configuration resource: /hibernate.cfg.xml
+[egoonet]2013-09-24 14:33:46,069 DEBUG main org.hibernate.util.DTDEntityResolver trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+[egoonet]2013-09-24 14:33:46,069 DEBUG main org.hibernate.util.DTDEntityResolver recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[egoonet]2013-09-24 14:33:46,070 DEBUG main org.hibernate.util.DTDEntityResolver located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+[egoonet]2013-09-24 14:33:46,105 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver
+[egoonet]2013-09-24 14:33:46,105 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.password=admin
+[egoonet]2013-09-24 14:33:46,105 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:xe
+[egoonet]2013-09-24 14:33:46,105 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.username=admin
+[egoonet]2013-09-24 14:33:46,105 DEBUG main org.hibernate.cfg.Configuration hibernate.dialect=org.hibernate.dialect.OracleDialect
+[egoonet]2013-09-24 14:33:46,106 DEBUG main org.hibernate.cfg.Configuration hibernate.show_sql=true
+[egoonet]2013-09-24 14:33:46,106 DEBUG main org.hibernate.cfg.Configuration hibernate.use_sql_comments=true
+[egoonet]2013-09-24 14:33:46,106 DEBUG main org.hibernate.cfg.Configuration <-org.dom4j.tree.DefaultAttribute@176c74b [Attribute: name resource value "com/callcenter/domain/GroupInfo.hbm.xml"]
+[egoonet]2013-09-24 14:33:46,106 INFO main org.hibernate.cfg.Configuration Reading mappings from resource : com/callcenter/domain/GroupInfo.hbm.xml
+[egoonet]2013-09-24 14:33:46,114 DEBUG main org.hibernate.util.DTDEntityResolver trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[egoonet]2013-09-24 14:33:46,114 DEBUG main org.hibernate.util.DTDEntityResolver recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[egoonet]2013-09-24 14:33:46,114 DEBUG main org.hibernate.util.DTDEntityResolver located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[egoonet]2013-09-24 14:33:46,212 INFO main org.hibernate.cfg.HbmBinder Mapping class: com.callcenter.domain.GroupInfo -> GROUPINFO
+[egoonet]2013-09-24 14:33:46,220 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: groupInfoID -> GROUPINFOID
+[egoonet]2013-09-24 14:33:46,228 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: groupName -> GROUPNAME
+[egoonet]2013-09-24 14:33:46,229 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: groupDescp -> GROUPDESCP
+[egoonet]2013-09-24 14:33:46,236 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinces
+[egoonet]2013-09-24 14:33:46,237 DEBUG main org.hibernate.cfg.Configuration <-org.dom4j.tree.DefaultAttribute@15ee671 [Attribute: name resource value "com/callcenter/domain/Province.hbm.xml"]
+[egoonet]2013-09-24 14:33:46,241 INFO main org.hibernate.cfg.Configuration Reading mappings from resource : com/callcenter/domain/Province.hbm.xml
+[egoonet]2013-09-24 14:33:46,243 DEBUG main org.hibernate.util.DTDEntityResolver trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[egoonet]2013-09-24 14:33:46,243 DEBUG main org.hibernate.util.DTDEntityResolver recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[egoonet]2013-09-24 14:33:46,243 DEBUG main org.hibernate.util.DTDEntityResolver located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[egoonet]2013-09-24 14:33:46,275 INFO main org.hibernate.cfg.HbmBinder Mapping class: com.callcenter.domain.Province -> PROVINCE
+[egoonet]2013-09-24 14:33:46,276 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinceID -> PROVINCEID
+[egoonet]2013-09-24 14:33:46,276 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinceName -> PROVINCENAME
+[egoonet]2013-09-24 14:33:46,276 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinceDescp -> PROVINCEDESCP
+[egoonet]2013-09-24 14:33:46,276 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectAlarmRate -> CONNECTALARMRATE
+[egoonet]2013-09-24 14:33:46,276 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectErrorRate -> CONNECTERRORRATE
+[egoonet]2013-09-24 14:33:46,277 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectShortAlarmRate -> CONNECTSHORTALARMRATE
+[egoonet]2013-09-24 14:33:46,277 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectShortErrorRate -> CONNECTSHORTERRORRATE
+[egoonet]2013-09-24 14:33:46,277 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: queueNo -> QUEUENO
+[egoonet]2013-09-24 14:33:46,277 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: outboundTime -> OUTBOUNDTIME
+[egoonet]2013-09-24 14:33:46,278 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: inboundTime -> INBOUNDTIME
+[egoonet]2013-09-24 14:33:46,278 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: desktopTime -> DESKTOPTIME
+[egoonet]2013-09-24 14:33:46,278 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: abandonRate -> ABANDONRATE
+[egoonet]2013-09-24 14:33:46,278 INFO main org.hibernate.cfg.Configuration Configured SessionFactory: 
+[egoonet]2013-09-24 14:33:46,278 DEBUG main org.hibernate.cfg.Configuration properties: {hibernate.connection.password=admin, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre6\bin, java.vm.version=20.45-b01, hibernate.connection.username=admin, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\CODE\workspace\config, java.runtime.version=1.6.0_45-b06, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre6\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\Users\jet\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, java.library.path=C:\Program Files\Java\jre6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Windows Live\Shared;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\Java\jdk1.6.0_45\bin;D:\tomcat\bin;D:\ant\bin;d:\maven\bin;C:\ruby\bin;d:\maven\bin;D:\zookeeper\bin;C:\Program Files\Vim\vim73;C:\Program Files\CVSNT\;;D:\share\eclipse\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.1, user.home=C:\Users\jet, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver, user.name=jet, java.class.path=D:\CODE\workspace\config\build\classes;D:\tomcat\lib\annotations-api.jar;D:\tomcat\lib\catalina-ant.jar;D:\tomcat\lib\catalina-ha.jar;D:\tomcat\lib\catalina-tribes.jar;D:\tomcat\lib\catalina.jar;D:\tomcat\lib\ecj-4.2.2.jar;D:\tomcat\lib\el-api.jar;D:\tomcat\lib\jasper-el.jar;D:\tomcat\lib\jasper.jar;D:\tomcat\lib\jsp-api.jar;D:\tomcat\lib\servlet-api.jar;D:\tomcat\lib\tomcat-coyote.jar;D:\tomcat\lib\tomcat-dbcp.jar;D:\tomcat\lib\tomcat-i18n-es.jar;D:\tomcat\lib\tomcat-i18n-fr.jar;D:\tomcat\lib\tomcat-i18n-ja.jar;D:\CODE\workspace\config\web\WEB-INF\lib\antlr-2.7.6.jar;D:\CODE\workspace\config\web\WEB-INF\lib\aopalliance-1.0.jar;D:\CODE\workspace\config\web\WEB-INF\lib\cglib-nodep-2.2.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-beanutils-1.8.3.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-collections-3.2.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-dbcp-1.4.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-digester-2.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-logging-1.1.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-pool-1.5.4.jar;D:\CODE\workspace\config\web\WEB-INF\lib\dom4j-1.6.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\ejb3-persistence-1.0.2.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hibernate-annotations-3.4.0.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hibernate-commons-annotations-3.1.0.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hibernate-core-3.3.2.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hsqldb-1.8.0.10.jar;D:\CODE\workspace\config\web\WEB-INF\lib\javassist-3.7.ga.jar;D:\CODE\workspace\config\web\WEB-INF\lib\jstl-1.1.2.jar;D:\CODE\workspace\config\web\WEB-INF\lib\jta-1.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\junit-4.8.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\log4j-1.2.14.jar;D:\CODE\workspace\config\web\WEB-INF\lib\persistence-api-1.0.jar;D:\CODE\workspace\config\web\WEB-INF\lib\servlet-api-2.5.jar;D:\CODE\workspace\config\web\WEB-INF\lib\slf4j-api-1.6.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\slf4j-log4j12-1.6.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-aop-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-asm-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-beans-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-context-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-context-support-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-core-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-expression-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-jdbc-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-orm-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-acl-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-config-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-core-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-taglibs-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-web-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-tx-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-web-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-webmvc-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\standard-1.1.2.jar;D:\CODE\workspace\config\web\WEB-INF\lib\xml-apis-1.0.b2.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.java.command=com.callcenter.dao.ExportDB, java.home=C:\Program Files\Java\jre6, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.OracleDialect, hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:xe, user.language=zh, java.specification.vendor=Sun Microsystems Inc., awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, sharing, java.version=1.6.0_45, java.ext.dirs=C:\Program Files\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre6\lib\resources.jar;C:\Program Files\Java\jre6\lib\rt.jar;C:\Program Files\Java\jre6\lib\sunrsasign.jar;C:\Program Files\Java\jre6\lib\jsse.jar;C:\Program Files\Java\jre6\lib\jce.jar;C:\Program Files\Java\jre6\lib\charsets.jar;C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar;C:\Program Files\Java\jre6\classes, java.vendor=Sun Microsystems Inc., file.separator=\, hibernate.session_factory_name=, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+[egoonet]2013-09-24 14:33:46,314 INFO main org.hibernate.dialect.Dialect Using dialect: org.hibernate.dialect.OracleDialect
+[egoonet]2013-09-24 14:33:46,364 WARN main org.hibernate.dialect.Oracle9Dialect The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+[egoonet]2013-09-24 14:33:46,367 WARN main org.hibernate.dialect.OracleDialect The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+[egoonet]2013-09-24 14:33:46,368 DEBUG main org.hibernate.cfg.Configuration processing extends queue
+[egoonet]2013-09-24 14:33:46,368 DEBUG main org.hibernate.cfg.Configuration processing collection mappings
+[egoonet]2013-09-24 14:33:46,369 DEBUG main org.hibernate.cfg.CollectionSecondPass Second pass for collection: com.callcenter.domain.GroupInfo.provinces
+[egoonet]2013-09-24 14:33:46,369 INFO main org.hibernate.cfg.HbmBinder Mapping collection: com.callcenter.domain.GroupInfo.provinces -> PROVINCE
+[egoonet]2013-09-24 14:33:46,373 DEBUG main org.hibernate.cfg.CollectionSecondPass Mapped collection key: GROUPINFOID, index: PROVINCEID, one-to-many: com.callcenter.domain.Province
+[egoonet]2013-09-24 14:33:46,373 DEBUG main org.hibernate.cfg.Configuration processing native query and ResultSetMapping mappings
+[egoonet]2013-09-24 14:33:46,373 DEBUG main org.hibernate.cfg.Configuration processing association property references
+[egoonet]2013-09-24 14:33:46,374 DEBUG main org.hibernate.cfg.Configuration processing foreign key constraints
+[egoonet]2013-09-24 14:33:46,374 DEBUG main org.hibernate.cfg.Configuration resolving reference to class: com.callcenter.domain.GroupInfo
+[egoonet]2013-09-24 14:33:46,457 DEBUG main org.hibernate.cfg.Configuration processing extends queue
+[egoonet]2013-09-24 14:33:46,458 DEBUG main org.hibernate.cfg.Configuration processing collection mappings
+[egoonet]2013-09-24 14:33:46,458 DEBUG main org.hibernate.cfg.Configuration processing native query and ResultSetMapping mappings
+[egoonet]2013-09-24 14:33:46,458 DEBUG main org.hibernate.cfg.Configuration processing association property references
+[egoonet]2013-09-24 14:33:46,458 DEBUG main org.hibernate.cfg.Configuration processing foreign key constraints
+[egoonet]2013-09-24 14:33:46,458 DEBUG main org.hibernate.cfg.Configuration resolving reference to class: com.callcenter.domain.GroupInfo
+[egoonet]2013-09-24 14:33:46,463 INFO main org.hibernate.tool.hbm2ddl.SchemaExport Running hbm2ddl schema export
+[egoonet]2013-09-24 14:33:46,464 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport import file not found: /import.sql
+[egoonet]2013-09-24 14:33:46,464 INFO main org.hibernate.tool.hbm2ddl.SchemaExport exporting generated schema to database
+[egoonet]2013-09-24 14:33:46,468 INFO main org.hibernate.connection.DriverManagerConnectionProvider Using Hibernate built-in connection pool (not for production use!)
+[egoonet]2013-09-24 14:33:46,469 INFO main org.hibernate.connection.DriverManagerConnectionProvider Hibernate connection pool size: 20
+[egoonet]2013-09-24 14:33:46,469 INFO main org.hibernate.connection.DriverManagerConnectionProvider autocommit mode: false
+[egoonet]2013-09-24 14:33:46,472 ERROR main org.hibernate.connection.DriverManagerConnectionProvider JDBC Driver class not found: oracle.jdbc.driver.OracleDriver
+java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:84)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:137)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:79)
+	at org.hibernate.tool.hbm2ddl.ManagedProviderConnectionHelper.prepare(ManagedProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:252)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:211)
+	at com.callcenter.dao.ExportDB.main(ExportDB.java:20)
+[egoonet]2013-09-24 14:33:46,476 ERROR main org.hibernate.tool.hbm2ddl.SchemaExport schema export unsuccessful
+org.hibernate.HibernateException: JDBC Driver class not found: oracle.jdbc.driver.OracleDriver
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:89)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:137)
+	at org.hibernate.connection.ConnectionProviderFactory.newConnectionProvider(ConnectionProviderFactory.java:79)
+	at org.hibernate.tool.hbm2ddl.ManagedProviderConnectionHelper.prepare(ManagedProviderConnectionHelper.java:51)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:252)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:211)
+	at com.callcenter.dao.ExportDB.main(ExportDB.java:20)
+Caused by: java.lang.ClassNotFoundException: oracle.jdbc.driver.OracleDriver
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:84)
+	... 6 more
+[egoonet]2013-09-24 14:34:15,045 INFO main org.hibernate.cfg.Environment Hibernate 3.3.2.GA
+[egoonet]2013-09-24 14:34:15,111 INFO main org.hibernate.cfg.Environment hibernate.properties not found
+[egoonet]2013-09-24 14:34:15,116 INFO main org.hibernate.cfg.Environment Bytecode provider name : javassist
+[egoonet]2013-09-24 14:34:15,125 INFO main org.hibernate.cfg.Environment using JDK 1.4 java.sql.Timestamp handling
+[egoonet]2013-09-24 14:34:15,251 INFO main org.hibernate.cfg.Configuration configuring from resource: /hibernate.cfg.xml
+[egoonet]2013-09-24 14:34:15,251 INFO main org.hibernate.cfg.Configuration Configuration resource: /hibernate.cfg.xml
+[egoonet]2013-09-24 14:34:15,336 DEBUG main org.hibernate.util.DTDEntityResolver trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+[egoonet]2013-09-24 14:34:15,336 DEBUG main org.hibernate.util.DTDEntityResolver recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[egoonet]2013-09-24 14:34:15,338 DEBUG main org.hibernate.util.DTDEntityResolver located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+[egoonet]2013-09-24 14:34:15,380 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver
+[egoonet]2013-09-24 14:34:15,380 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.password=admin
+[egoonet]2013-09-24 14:34:15,380 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:xe
+[egoonet]2013-09-24 14:34:15,380 DEBUG main org.hibernate.cfg.Configuration hibernate.connection.username=admin
+[egoonet]2013-09-24 14:34:15,380 DEBUG main org.hibernate.cfg.Configuration hibernate.dialect=org.hibernate.dialect.OracleDialect
+[egoonet]2013-09-24 14:34:15,380 DEBUG main org.hibernate.cfg.Configuration hibernate.show_sql=true
+[egoonet]2013-09-24 14:34:15,381 DEBUG main org.hibernate.cfg.Configuration hibernate.use_sql_comments=true
+[egoonet]2013-09-24 14:34:15,382 DEBUG main org.hibernate.cfg.Configuration <-org.dom4j.tree.DefaultAttribute@176c74b [Attribute: name resource value "com/callcenter/domain/GroupInfo.hbm.xml"]
+[egoonet]2013-09-24 14:34:15,382 INFO main org.hibernate.cfg.Configuration Reading mappings from resource : com/callcenter/domain/GroupInfo.hbm.xml
+[egoonet]2013-09-24 14:34:15,384 DEBUG main org.hibernate.util.DTDEntityResolver trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[egoonet]2013-09-24 14:34:15,385 DEBUG main org.hibernate.util.DTDEntityResolver recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[egoonet]2013-09-24 14:34:15,386 DEBUG main org.hibernate.util.DTDEntityResolver located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[egoonet]2013-09-24 14:34:15,519 INFO main org.hibernate.cfg.HbmBinder Mapping class: com.callcenter.domain.GroupInfo -> GROUPINFO
+[egoonet]2013-09-24 14:34:15,527 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: groupInfoID -> GROUPINFOID
+[egoonet]2013-09-24 14:34:15,537 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: groupName -> GROUPNAME
+[egoonet]2013-09-24 14:34:15,538 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: groupDescp -> GROUPDESCP
+[egoonet]2013-09-24 14:34:15,545 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinces
+[egoonet]2013-09-24 14:34:15,545 DEBUG main org.hibernate.cfg.Configuration <-org.dom4j.tree.DefaultAttribute@15ee671 [Attribute: name resource value "com/callcenter/domain/Province.hbm.xml"]
+[egoonet]2013-09-24 14:34:15,545 INFO main org.hibernate.cfg.Configuration Reading mappings from resource : com/callcenter/domain/Province.hbm.xml
+[egoonet]2013-09-24 14:34:15,547 DEBUG main org.hibernate.util.DTDEntityResolver trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[egoonet]2013-09-24 14:34:15,547 DEBUG main org.hibernate.util.DTDEntityResolver recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[egoonet]2013-09-24 14:34:15,548 DEBUG main org.hibernate.util.DTDEntityResolver located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[egoonet]2013-09-24 14:34:15,575 INFO main org.hibernate.cfg.HbmBinder Mapping class: com.callcenter.domain.Province -> PROVINCE
+[egoonet]2013-09-24 14:34:15,575 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinceID -> PROVINCEID
+[egoonet]2013-09-24 14:34:15,576 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinceName -> PROVINCENAME
+[egoonet]2013-09-24 14:34:15,576 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: provinceDescp -> PROVINCEDESCP
+[egoonet]2013-09-24 14:34:15,576 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectAlarmRate -> CONNECTALARMRATE
+[egoonet]2013-09-24 14:34:15,576 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectErrorRate -> CONNECTERRORRATE
+[egoonet]2013-09-24 14:34:15,577 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectShortAlarmRate -> CONNECTSHORTALARMRATE
+[egoonet]2013-09-24 14:34:15,577 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: connectShortErrorRate -> CONNECTSHORTERRORRATE
+[egoonet]2013-09-24 14:34:15,577 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: queueNo -> QUEUENO
+[egoonet]2013-09-24 14:34:15,577 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: outboundTime -> OUTBOUNDTIME
+[egoonet]2013-09-24 14:34:15,578 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: inboundTime -> INBOUNDTIME
+[egoonet]2013-09-24 14:34:15,578 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: desktopTime -> DESKTOPTIME
+[egoonet]2013-09-24 14:34:15,578 DEBUG main org.hibernate.cfg.HbmBinder Mapped property: abandonRate -> ABANDONRATE
+[egoonet]2013-09-24 14:34:15,578 INFO main org.hibernate.cfg.Configuration Configured SessionFactory: 
+[egoonet]2013-09-24 14:34:15,579 DEBUG main org.hibernate.cfg.Configuration properties: {hibernate.connection.password=admin, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jre6\bin, java.vm.version=20.45-b01, hibernate.connection.username=admin, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) Client VM, file.encoding.pkg=sun.io, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=D:\CODE\workspace\config, java.runtime.version=1.6.0_45-b06, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jre6\lib\endorsed, os.arch=x86, java.io.tmpdir=C:\Users\jet\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows 7, sun.jnu.encoding=GBK, java.library.path=C:\Program Files\Java\jre6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Windows Live\Shared;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\MySQL\MySQL Server 5.1\bin;C:\Program Files\Java\jdk1.6.0_45\bin;D:\tomcat\bin;D:\ant\bin;d:\maven\bin;C:\ruby\bin;d:\maven\bin;D:\zookeeper\bin;C:\Program Files\Vim\vim73;C:\Program Files\CVSNT\;;D:\share\eclipse\eclipse;;., java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot Client Compiler, os.version=6.1, user.home=C:\Users\jet, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.6, hibernate.connection.driver_class=oracle.jdbc.driver.OracleDriver, user.name=jet, java.class.path=D:\CODE\workspace\config\build\classes;D:\tomcat\lib\annotations-api.jar;D:\tomcat\lib\catalina-ant.jar;D:\tomcat\lib\catalina-ha.jar;D:\tomcat\lib\catalina-tribes.jar;D:\tomcat\lib\catalina.jar;D:\tomcat\lib\ecj-4.2.2.jar;D:\tomcat\lib\el-api.jar;D:\tomcat\lib\jasper-el.jar;D:\tomcat\lib\jasper.jar;D:\tomcat\lib\jsp-api.jar;D:\tomcat\lib\servlet-api.jar;D:\tomcat\lib\tomcat-coyote.jar;D:\tomcat\lib\tomcat-dbcp.jar;D:\tomcat\lib\tomcat-i18n-es.jar;D:\tomcat\lib\tomcat-i18n-fr.jar;D:\tomcat\lib\tomcat-i18n-ja.jar;D:\CODE\workspace\config\web\WEB-INF\lib\antlr-2.7.6.jar;D:\CODE\workspace\config\web\WEB-INF\lib\aopalliance-1.0.jar;D:\CODE\workspace\config\web\WEB-INF\lib\cglib-nodep-2.2.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-beanutils-1.8.3.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-collections-3.2.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-dbcp-1.4.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-digester-2.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-logging-1.1.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\commons-pool-1.5.4.jar;D:\CODE\workspace\config\web\WEB-INF\lib\dom4j-1.6.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\ejb3-persistence-1.0.2.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hibernate-annotations-3.4.0.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hibernate-commons-annotations-3.1.0.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hibernate-core-3.3.2.GA.jar;D:\CODE\workspace\config\web\WEB-INF\lib\hsqldb-1.8.0.10.jar;D:\CODE\workspace\config\web\WEB-INF\lib\javassist-3.7.ga.jar;D:\CODE\workspace\config\web\WEB-INF\lib\jstl-1.1.2.jar;D:\CODE\workspace\config\web\WEB-INF\lib\jta-1.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\junit-4.8.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\log4j-1.2.14.jar;D:\CODE\workspace\config\web\WEB-INF\lib\ojdbc6.jar;D:\CODE\workspace\config\web\WEB-INF\lib\persistence-api-1.0.jar;D:\CODE\workspace\config\web\WEB-INF\lib\servlet-api-2.5.jar;D:\CODE\workspace\config\web\WEB-INF\lib\slf4j-api-1.6.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\slf4j-log4j12-1.6.1.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-aop-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-asm-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-beans-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-context-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-context-support-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-core-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-expression-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-jdbc-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-orm-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-acl-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-config-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-core-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-taglibs-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-security-web-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-tx-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-web-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\spring-webmvc-3.1.4.RELEASE.jar;D:\CODE\workspace\config\web\WEB-INF\lib\standard-1.1.2.jar;D:\CODE\workspace\config\web\WEB-INF\lib\xml-apis-1.0.b2.jar, hibernate.bytecode.use_reflection_optimizer=false, hibernate.use_sql_comments=true, hibernate.show_sql=true, java.vm.specification.version=1.0, sun.java.command=com.callcenter.dao.ExportDB, java.home=C:\Program Files\Java\jre6, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.OracleDialect, hibernate.connection.url=jdbc:oracle:thin:@localhost:1521:xe, user.language=zh, java.specification.vendor=Sun Microsystems Inc., awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, sharing, java.version=1.6.0_45, java.ext.dirs=C:\Program Files\Java\jre6\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jre6\lib\resources.jar;C:\Program Files\Java\jre6\lib\rt.jar;C:\Program Files\Java\jre6\lib\sunrsasign.jar;C:\Program Files\Java\jre6\lib\jsse.jar;C:\Program Files\Java\jre6\lib\jce.jar;C:\Program Files\Java\jre6\lib\charsets.jar;C:\Program Files\Java\jre6\lib\modules\jdk.boot.jar;C:\Program Files\Java\jre6\classes, java.vendor=Sun Microsystems Inc., file.separator=\, hibernate.session_factory_name=, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86}
+[egoonet]2013-09-24 14:34:15,644 INFO main org.hibernate.dialect.Dialect Using dialect: org.hibernate.dialect.OracleDialect
+[egoonet]2013-09-24 14:34:15,694 WARN main org.hibernate.dialect.Oracle9Dialect The Oracle9Dialect dialect has been deprecated; use either Oracle9iDialect or Oracle10gDialect instead
+[egoonet]2013-09-24 14:34:15,697 WARN main org.hibernate.dialect.OracleDialect The OracleDialect dialect has been deprecated; use Oracle8iDialect instead
+[egoonet]2013-09-24 14:34:15,698 DEBUG main org.hibernate.cfg.Configuration processing extends queue
+[egoonet]2013-09-24 14:34:15,698 DEBUG main org.hibernate.cfg.Configuration processing collection mappings
+[egoonet]2013-09-24 14:34:15,699 DEBUG main org.hibernate.cfg.CollectionSecondPass Second pass for collection: com.callcenter.domain.GroupInfo.provinces
+[egoonet]2013-09-24 14:34:15,699 INFO main org.hibernate.cfg.HbmBinder Mapping collection: com.callcenter.domain.GroupInfo.provinces -> PROVINCE
+[egoonet]2013-09-24 14:34:15,703 DEBUG main org.hibernate.cfg.CollectionSecondPass Mapped collection key: GROUPINFOID, index: PROVINCEID, one-to-many: com.callcenter.domain.Province
+[egoonet]2013-09-24 14:34:15,703 DEBUG main org.hibernate.cfg.Configuration processing native query and ResultSetMapping mappings
+[egoonet]2013-09-24 14:34:15,704 DEBUG main org.hibernate.cfg.Configuration processing association property references
+[egoonet]2013-09-24 14:34:15,704 DEBUG main org.hibernate.cfg.Configuration processing foreign key constraints
+[egoonet]2013-09-24 14:34:15,704 DEBUG main org.hibernate.cfg.Configuration resolving reference to class: com.callcenter.domain.GroupInfo
+[egoonet]2013-09-24 14:34:15,803 DEBUG main org.hibernate.cfg.Configuration processing extends queue
+[egoonet]2013-09-24 14:34:15,803 DEBUG main org.hibernate.cfg.Configuration processing collection mappings
+[egoonet]2013-09-24 14:34:15,804 DEBUG main org.hibernate.cfg.Configuration processing native query and ResultSetMapping mappings
+[egoonet]2013-09-24 14:34:15,804 DEBUG main org.hibernate.cfg.Configuration processing association property references
+[egoonet]2013-09-24 14:34:15,804 DEBUG main org.hibernate.cfg.Configuration processing foreign key constraints
+[egoonet]2013-09-24 14:34:15,804 DEBUG main org.hibernate.cfg.Configuration resolving reference to class: com.callcenter.domain.GroupInfo
+[egoonet]2013-09-24 14:34:15,810 INFO main org.hibernate.tool.hbm2ddl.SchemaExport Running hbm2ddl schema export
+[egoonet]2013-09-24 14:34:15,811 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport import file not found: /import.sql
+[egoonet]2013-09-24 14:34:15,811 INFO main org.hibernate.tool.hbm2ddl.SchemaExport exporting generated schema to database
+[egoonet]2013-09-24 14:34:15,815 INFO main org.hibernate.connection.DriverManagerConnectionProvider Using Hibernate built-in connection pool (not for production use!)
+[egoonet]2013-09-24 14:34:15,815 INFO main org.hibernate.connection.DriverManagerConnectionProvider Hibernate connection pool size: 20
+[egoonet]2013-09-24 14:34:15,815 INFO main org.hibernate.connection.DriverManagerConnectionProvider autocommit mode: false
+[egoonet]2013-09-24 14:34:16,279 INFO main org.hibernate.connection.DriverManagerConnectionProvider using driver: oracle.jdbc.driver.OracleDriver at URL: jdbc:oracle:thin:@localhost:1521:xe
+[egoonet]2013-09-24 14:34:16,280 INFO main org.hibernate.connection.DriverManagerConnectionProvider connection properties: {user=admin, password=admin}
+[egoonet]2013-09-24 14:34:16,280 DEBUG main org.hibernate.connection.DriverManagerConnectionProvider opening new JDBC connection
+[egoonet]2013-09-24 14:34:17,074 DEBUG main org.hibernate.connection.DriverManagerConnectionProvider created connection to: jdbc:oracle:thin:@localhost:1521:xe, Isolation Level: 2
+[egoonet]2013-09-24 14:34:17,156 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport drop table GROUPINFO cascade constraints
+[egoonet]2013-09-24 14:34:17,874 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport Unsuccessful: drop table GROUPINFO cascade constraints
+[egoonet]2013-09-24 14:34:17,874 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport ORA-00942: 表或视图不存在
+
+[egoonet]2013-09-24 14:34:17,874 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport drop table PROVINCE cascade constraints
+[egoonet]2013-09-24 14:34:17,951 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport Unsuccessful: drop table PROVINCE cascade constraints
+[egoonet]2013-09-24 14:34:17,951 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport ORA-00942: 表或视图不存在
+
+[egoonet]2013-09-24 14:34:17,951 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport drop sequence hibernate_sequence
+[egoonet]2013-09-24 14:34:18,400 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport create table GROUPINFO (GROUPINFOID number(10,0) not null, GROUPNAME varchar2(255), GROUPDESCP varchar2(255), primary key (GROUPINFOID))
+[egoonet]2013-09-24 14:34:19,902 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport create table PROVINCE (PROVINCEID number(10,0) not null, PROVINCENAME varchar2(255), PROVINCEDESCP varchar2(255), CONNECTALARMRATE double precision, CONNECTERRORRATE double precision, CONNECTSHORTALARMRATE double precision, CONNECTSHORTERRORRATE double precision, QUEUENO double precision, OUTBOUNDTIME double precision, INBOUNDTIME double precision, DESKTOPTIME double precision, ABANDONRATE double precision, GROUPINFOID number(10,0), primary key (PROVINCEID))
+[egoonet]2013-09-24 14:34:20,030 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport alter table PROVINCE add constraint FKF3CA1B3095E855F9 foreign key (GROUPINFOID) references GROUPINFO
+[egoonet]2013-09-24 14:34:21,378 DEBUG main org.hibernate.tool.hbm2ddl.SchemaExport create sequence hibernate_sequence
+[egoonet]2013-09-24 14:34:21,486 INFO main org.hibernate.tool.hbm2ddl.SchemaExport schema export complete
+[egoonet]2013-09-24 14:34:21,508 INFO main org.hibernate.connection.DriverManagerConnectionProvider cleaning up connection pool: jdbc:oracle:thin:@localhost:1521:xe
